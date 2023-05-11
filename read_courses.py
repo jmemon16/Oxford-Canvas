@@ -1,4 +1,6 @@
-# -*- coding: utf-8 -*-
+# This program pulls the list of courses from canvas which are tagged 'available''
+
+
 import dotenv
 import os
 import requests
@@ -32,6 +34,7 @@ auth_header = {'Authorization': 'Bearer ' + TOKEN} # setup the authorization hea
 
 # ensure that COURSE_STATE is valid
 COURSE_STATE = os.environ.get('CANVAS_COURSE_STATE')
+
 if not COURSE_STATE in ["unpublished", "available", "completed", "deleted"]:
     print("Invalid course state. Please set `CANVAS_COURSE_STATE` to one of [unpublished, available, completed, deleted]")
     exit()
