@@ -2,7 +2,7 @@
 
 
 
-### How to get access token
+### How to use these programs
 
 To use these programs create a file .env and copy paste following
 ```
