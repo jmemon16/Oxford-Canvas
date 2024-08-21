@@ -24,7 +24,7 @@ To get access token go
 - Account > Settings > New access token (make sure to add expiry date for saftey)
 - Copy Token and replace with $ in .env
 
-### How to get access token
+### How to install required packages
 To install canvasapi
 
 > pip install canvasapi
