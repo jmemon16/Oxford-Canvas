@@ -1,8 +1,6 @@
 
 import dotenv
 import os
-import requests
-import pandas as pd
 
 from canvasapi import Canvas
 

@@ -23,3 +23,12 @@ For '$' get token from canvas as shown below steps
 To get access token go 
 - Account > Settings > New access token (make sure to add expiry date for saftey)
 - Copy Token and replace with $ in .env
+
+### How to get access token
+To install canvasapi
+
+> pip install canvasapi
+
+To install dotenv
+
+> pip install python-dotenv      
