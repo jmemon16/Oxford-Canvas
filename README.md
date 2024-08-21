@@ -22,4 +22,4 @@ For '$' get token from canvas as shown below steps
 
 To get access token go 
 - Account > Settings > New access token (make sure to add expiry date for saftey)
-- Copy Token
+- Copy Token and replace with $ in .env
